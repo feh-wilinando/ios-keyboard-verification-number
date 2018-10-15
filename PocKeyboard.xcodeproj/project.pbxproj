@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A80E407E0E53B392CB6B9E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E438C97A9BD61C3036F94 /* ViewController.swift */; };
+		A80E460E775419B3F05DD0F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80E477046C6D6F3A9A94A47 /* Main.storyboard */; };
+		A80E483163FA0962AE312353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80E44B64389F31835A0A5DA /* LaunchScreen.storyboard */; };
+		A80E483C050E2D5083F7AAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80E4767AFD8E64313DDDC6E /* Assets.xcassets */; };
+		A80E4B9A76AA3C919691D731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E4E2835A8324CCB8681C1 /* AppDelegate.swift */; };
+		A80E4BE30C1031D2C449FF14 /* PocKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80E46086939D2171E63F892 /* PocKeyboardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A80E4EEDA0FD5DDD66B2043C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80E4ADEA39D6D0D58F236F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80E42123BC79686F710130D;
+			remoteInfo = PocKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A80E41CD0DCBAE9CA150F127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A80E438C97A9BD61C3036F94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A80E4474392899A5A374FCFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		A80E4501B674FF5A2C5B059C /* PocKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80E46086939D2171E63F892 /* PocKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocKeyboardTests.swift; sourceTree = "<group>"; };
+		A80E4767AFD8E64313DDDC6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A80E4856927114959C8FA528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A80E4920DFACCEF21A17A326 /* PocKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80E49C73BEB037FA08623D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		A80E4E2835A8324CCB8681C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A80E4591433CCA82F27029CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80E4A58B24DF504D6CA0DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80E40CAB03B98DF67A48942 /* PocKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A80E4474392899A5A374FCFA /* Info.plist */,
+				A80E4767AFD8E64313DDDC6E /* Assets.xcassets */,
+				A80E44B64389F31835A0A5DA /* LaunchScreen.storyboard */,
+				A80E4E2835A8324CCB8681C1 /* AppDelegate.swift */,
+				A80E477046C6D6F3A9A94A47 /* Main.storyboard */,
+				A80E438C97A9BD61C3036F94 /* ViewController.swift */,
+			);
+			path = PocKeyboard;
+			sourceTree = "<group>";
+		};
+		A80E463B52057695CC3DEC35 /* PocKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A80E49C73BEB037FA08623D7 /* Info.plist */,
+				A80E46086939D2171E63F892 /* PocKeyboardTests.swift */,
+			);
+			path = PocKeyboardTests;
+			sourceTree = "<group>";
+		};
+		A80E465483C3AD02E3636560 = {
+			isa = PBXGroup;
+			children = (
+				A80E4B458D343CB9DC69E77F /* Products */,
+				A80E40CAB03B98DF67A48942 /* PocKeyboard */,
+				A80E463B52057695CC3DEC35 /* PocKeyboardTests */,
+			);
+			sourceTree = "<group>";
+		};
+		A80E4B458D343CB9DC69E77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80E4501B674FF5A2C5B059C /* PocKeyboard.app */,
+				A80E4920DFACCEF21A17A326 /* PocKeyboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A80E42123BC79686F710130D /* PocKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80E46112842BA8375ED1405 /* Build configuration list for PBXNativeTarget "PocKeyboard" */;
+			buildPhases = (
+				A80E4CBD8A2BBF5A76E9B883 /* Sources */,
+				A80E4591433CCA82F27029CE /* Frameworks */,
+				A80E4126425164109EAF4A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocKeyboard;
+			productName = PocKeyboard;
+			productReference = A80E4501B674FF5A2C5B059C /* PocKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A80E4439639D801E8B3F6746 /* PocKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80E458729295BBF65FEE813 /* Build configuration list for PBXNativeTarget "PocKeyboardTests" */;
+			buildPhases = (
+				A80E47450C82D24F8081CBA3 /* Sources */,
+				A80E4A58B24DF504D6CA0DF9 /* Frameworks */,
+				A80E446B30CC71F5DCF25C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80E420ADD82BC18B285083C /* PBXTargetDependency */,
+			);
+			name = PocKeyboardTests;
+			productName = PocKeyboardTests;
+			productReference = A80E4920DFACCEF21A17A326 /* PocKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80E4ADEA39D6D0D58F236F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "feh-wilinando";
+			};
+			buildConfigurationList = A80E432DDA3BC17A3550A464 /* Build configuration list for PBXProject "PocKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A80E465483C3AD02E3636560;
+			productRefGroup = A80E4B458D343CB9DC69E77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A80E42123BC79686F710130D /* PocKeyboard */,
+				A80E4439639D801E8B3F6746 /* PocKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80E4126425164109EAF4A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80E483C050E2D5083F7AAD0 /* Assets.xcassets in Resources */,
+				A80E483163FA0962AE312353 /* LaunchScreen.storyboard in Resources */,
+				A80E460E775419B3F05DD0F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80E446B30CC71F5DCF25C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80E47450C82D24F8081CBA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80E4BE30C1031D2C449FF14 /* PocKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80E4CBD8A2BBF5A76E9B883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80E4B9A76AA3C919691D731 /* AppDelegate.swift in Sources */,
+				A80E407E0E53B392CB6B9E0A /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A80E420ADD82BC18B285083C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A80E42123BC79686F710130D /* PocKeyboard */;
+			targetProxy = A80E4EEDA0FD5DDD66B2043C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A80E44B64389F31835A0A5DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80E41CD0DCBAE9CA150F127 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A80E477046C6D6F3A9A94A47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80E4856927114959C8FA528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A80E432B26B118B1A841D40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.feh-wilinando.PocKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A80E45B9D002685341F140A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.feh-wilinando.PocKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80E467C0EB2FD63887E89CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A80E48D5D65B6A31A0AA95A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PocKeyboard.app/PocKeyboard";
+				INFOPLIST_FILE = PocKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.feh-wilinando.PocKeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		A80E4CCE986B403BFBECA866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80E4EB02CD4C49879EB4903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PocKeyboard.app/PocKeyboard";
+				INFOPLIST_FILE = PocKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.feh-wilinando.PocKeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80E432DDA3BC17A3550A464 /* Build configuration list for PBXProject "PocKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80E467C0EB2FD63887E89CE /* Debug */,
+				A80E4CCE986B403BFBECA866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80E458729295BBF65FEE813 /* Build configuration list for PBXNativeTarget "PocKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80E4EB02CD4C49879EB4903 /* Debug */,
+				A80E48D5D65B6A31A0AA95A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A80E46112842BA8375ED1405 /* Build configuration list for PBXNativeTarget "PocKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80E45B9D002685341F140A1 /* Debug */,
+				A80E432B26B118B1A841D40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80E4ADEA39D6D0D58F236F1 /* Project object */;
+}
